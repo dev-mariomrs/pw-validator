@@ -10,6 +10,22 @@
 ```bash
 mvn spring-boot:run
 ```
+método: POST
+url: http://localhost:8080/api/v1/password/validate
+
+Headers
+key: Content-Type  
+value: application/json
+
+body:
+{
+	"password": "S3gur@-P4s1"
+}
+
+resultado:
+{
+    "isValid": true
+}
 
 ## Endpoints
 | Método | Endpoint               | Descrição          |
