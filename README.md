@@ -34,8 +34,13 @@ resultado:
 
 ## Requisitos de Senha
 - Mínimo 9 caracteres
-- 1 caractere especial (!@#$%^&*)
+- 1 caractere especial (!@#$%^&*()-+)
 - Sem caracteres repetidos
+- Nove ou mais caracteres
+- Ao menos 1 dígito
+- Ao menos 1 letra minúscula
+- Ao menos 1 letra maiúscula
+- Ao menos 1 caractere especial
 
 ## Detalhes sobre a sua solução
 
